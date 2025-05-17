@@ -1,5 +1,9 @@
+
 html{
     scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
 }
 body{
     font-size: 15px;

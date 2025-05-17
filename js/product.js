@@ -35,7 +35,8 @@ const products = [
         momen: "380 Nm",
         maxsp: "275 km/giờ",
         consume: "9,56 (lít/100km)",
-        co2: ""
+        co2: "",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2013/11/porsche-718-boxster-model.png"
     },
     {
         id: 4,
@@ -47,7 +48,8 @@ const products = [
         momen: "420 Nm",
         maxsp: "285 km/giờ",
         consume: "",
-        co2: ""
+        co2: "",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2013/11/982-718-bos-modelimage-sideshot-840x473.png"
     },
     {
         id: 5,
@@ -59,7 +61,8 @@ const products = [
         momen: "380 Nm",
         maxsp: "275 km/giờ",
         consume: "",
-        co2: ""
+        co2: "",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2023/02/982-718-c7-se-modelimage-sideshot-840x473.png"
     },
     {
         id: 6,
@@ -71,7 +74,8 @@ const products = [
         momen: "380 Nm",
         maxsp: "275 km/giờ",
         consume: "",
-        co2: ""
+        co2: "",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2023/02/982-718-bo-se-modelimage-sideshot-840x473.png"
     },
     {
         id: 7,
@@ -83,7 +87,8 @@ const products = [
         momen: "450 Nm",
         maxsp: "294 km/giờ",
         consume: "10,6 lít/100 km",
-        co2: "241 g/km"
+        co2: "241 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/02/992-2nd-c2-modelimage-sideshot-840x473.png"
     },
     {
         id: 8,
@@ -95,7 +100,8 @@ const products = [
         momen: "450 Nm",
         maxsp: "295 km/giờ",
         consume: "11.5 lít/100 km",
-        co2: "262 g/km"
+        co2: "262 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/03/992-2nd-t-modelimage-sideshot-840x473.png"
     },
     {
         id: 9,
@@ -107,7 +113,8 @@ const products = [
         momen: "530 Nm",
         maxsp: "308 km/giờ",
         consume: "10.2 lít/100 km",
-        co2: "233 g/km"
+        co2: "233 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/03/992-2nd-c2s-modelimage-sideshot-840x473.png"
     },
     {
         id: 10,
@@ -119,7 +126,8 @@ const products = [
         momen: "Kết hợp: 610 Nm",
         maxsp: "312 km/giờ",
         consume: "10,7 lít/100 km",
-        co2: "244 g/km"
+        co2: "244 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/02/992-2nd-c2-gts-modelimage-sideshot-840x473.png"
     },
     {
         id: 11,
@@ -131,7 +139,8 @@ const products = [
         momen: "Kết hợp: 610 Nm",
         maxsp: "312 km/giờ",
         consume: "10,7 lít/100 km",
-        co2: "244 g/km"
+        co2: "244 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/02/992-2nd-c4-gts-modelimage-sideshot-840x473.png"
     },
     {
         id: 12,
@@ -143,7 +152,8 @@ const products = [
         momen: "530 Nm",
         maxsp: "308 km/giờ",
         consume: "10.5 lít/100 km",
-        co2: "239 g/km"
+        co2: "239 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/03/992-2nd-c2scab-modelimage-sideshot-840x473.png"
     },
     {
         id: 13,
@@ -155,7 +165,8 @@ const products = [
         momen: "450 Nm",
         maxsp: "291 km/giờ",
         consume: "10,7 lít/100 km",
-        co2: "245 g/km"
+        co2: "245 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/02/992-2nd-c2cab-modelimage-sideshot-840x473.png"
     },
     {
         id: 14,
@@ -167,7 +178,8 @@ const products = [
         momen: "450 Nm",
         maxsp: "293 km/giờ",
         consume: "11.7 lít/100 km",
-        co2: "266 g/km"
+        co2: "266 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/03/992-2nd-tcab-modelimage-sideshot-840x473.png"
     },
     {
         id: 15,
@@ -179,7 +191,8 @@ const products = [
         momen: "Kết hợp: 610 Nm",
         maxsp: "312 km/giờ",
         consume: "10,8 lít/100 km",
-        co2: "246 g/km"
+        co2: "246 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/02/992-2nd-c2cab-gts-modelimage-sideshot-840x473.png"
     },
     {
         id: 16,
@@ -191,7 +204,8 @@ const products = [
         momen: "Kết hợp: 610 Nm",
         maxsp: "312 km/giờ",
         consume: "10,9 lít/100 km",
-        co2: "248 g/km"
+        co2: "248 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/02/992-2nd-c4cab-gts-modelimage-sideshot-840x473.png"
     },
     {
         id: 17,
@@ -203,7 +217,8 @@ const products = [
         momen: "Kết hợp: 610 Nm",
         maxsp: "312 km/giờ",
         consume: "10,9 lít/100 km",
-        co2: "248 g/km"
+        co2: "248 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/02/992-2nd-ta4-gts-modelimage-sideshot-840x473.png"
     },
     {
         id: 18,
@@ -215,7 +230,8 @@ const products = [
         momen: "410 Nm với Launch Control",
         maxsp: "230 km/giờ",
         consume: "17,1 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/j1-2nd-taycan-modelimage-sideshot-840x473.png"
     },
     {
         id: 19,
@@ -227,7 +243,8 @@ const products = [
         momen: "585 Nm với Overboost",
         maxsp: "230 km/giờ",
         consume: "17,3 kWh/100 km (Performance Battery) | 17,7 kWh/100 km (Performance Battery Plus)",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/02/j1-2nd-taycan-4-modelimage-sideshot-840x473.png"
     },
     {
         id: 20,
@@ -239,7 +256,8 @@ const products = [
         momen: "695 Nm với Launch Control",
         maxsp: "250 km/giờ",
         consume: "17,3 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/j1-2nd-taycan-4s-modelimage-sideshot-840x473.png"
     },
     {
         id: 21,
@@ -251,7 +269,8 @@ const products = [
         momen: "790 Nm với Launch Control",
         maxsp: "250 km/giờ",
         consume: "17,8 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2025/02/j1-2nd-taycan-gts-modelimage-sideshot-840x473.png"
     },
     {
         id: 22,
@@ -263,7 +282,8 @@ const products = [
         momen: "890 Nm với Launch Control",
         maxsp: "260 km/giờ",
         consume: "17,8 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/j1-2nd-taycan-turbo-modelimage-sideshot-840x473.png"
     },
     {
         id: 23,
@@ -275,7 +295,8 @@ const products = [
         momen: "1.110 Nm với Launch Control",
         maxsp: "260 km/giờ",
         consume: "17,8 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/j1-2nd-taycan-tu-s-modelimage-sideshot-840x473.png"
     },
     {
         id: 24,
@@ -287,7 +308,8 @@ const products = [
         momen: "1.240 Nm với Launch Control",
         maxsp: "290 km/giờ",
         consume: "18,4 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/j1-2nd-taycan-turbo-gt-modelimage-sideshot-840x473.png"
     },
     {
         id: 25,
@@ -299,7 +321,8 @@ const products = [
         momen: "610 Nm với Launch Control",
         maxsp: "220 km/giờ",
         consume: "18,5 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/j1-2nd-taycan-4-cross-turismo-modelimage-sideshot-840x473.png"
     },
     {
         id: 26,
@@ -311,7 +334,8 @@ const products = [
         momen: "710 Nm với Launch Control",
         maxsp: "240 km/giờ",
         consume: "18,5 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/j1-2nd-taycan-4s-cross-turismo-modelimage-sideshot-840x473.png"
     },
     {
         id: 27,
@@ -323,7 +347,8 @@ const products = [
         momen: "890 Nm với Launch Control",
         maxsp: "250 km/giờ",
         consume: "18,6 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/j1-2nd-taycan-turbo-cross-turismo-modelimage-sideshot-840x473.png"
     },
     {
         id: 28,
@@ -335,7 +360,8 @@ const products = [
         momen: "500 Nm",
         maxsp: "272 km/giờ",
         consume: "9,5 lít/100km",
-        co2: "216 g/km"
+        co2: "216 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/05/972-g3-v6-modelimage-sideshot-840x473.png"
     },
     {
         id: 29,
@@ -347,7 +373,8 @@ const products = [
         momen: "660 Nm",
         maxsp: "302 km/giờ",
         consume: "12,7 lít – 12,0 lít/100 km",
-        co2: "288 – 274 g/km"
+        co2: "288 – 274 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/972-g3-gts-modelimage-sideshot-840x473.png"
     },
     {
         id: 30,
@@ -359,7 +386,8 @@ const products = [
         momen: "6,4 giây (6,2 giây với gói Sport Chrono)",
         maxsp: "232 km/giờ",
         consume: "",
-        co2: ""
+        co2: "",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2021/11/pa3-r4-modelimage-sideshot-840x473.png"
     },
     {
         id: 31,
@@ -371,7 +399,8 @@ const products = [
         momen: "400 Nm",
         maxsp: "232 km/giờ",
         consume: "",
-        co2: ""
+        co2: "",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2022/06/pa3-t-modelimage-sideshot-840x473.png"
     },
     {
         id: 32,
@@ -383,7 +412,8 @@ const products = [
         momen: "520 Nm",
         maxsp: "259 km/giờ",
         consume: "",
-        co2: ""
+        co2: "",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2021/11/pa3-s-modelimage-sideshot-840x473.png"
     },
     {
         id: 33,
@@ -395,7 +425,8 @@ const products = [
         momen: "550 Nm",
         maxsp: "272 km/giờ",
         consume: "",
-        co2: ""
+        co2: "",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2021/11/pa3-gts-modelimage-sideshot-840x473.png"
     },
     {
         id: 34,
@@ -407,7 +438,8 @@ const products = [
         momen: "563 Nm với Launch Control",
         maxsp: "220 km/giờ",
         consume: "16,2 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/macan-bev-modelimage-sideshot-840x473.png"
     },
     {
         id: 35,
@@ -419,7 +451,8 @@ const products = [
         momen: "650 Nm",
         maxsp: "220 km/giờ",
         consume: "21.1 - 17.9 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/02/macan-bev-4-modelimage-840x473.png"
     },
     {
         id: 36,
@@ -431,7 +464,8 @@ const products = [
         momen: "820 Nm với Launch Control",
         maxsp: "240 km/giờ",
         consume: "17,1 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/09/macan-bev-4s-modelimage-840x473.png"
     },
     {
         id: 37,
@@ -443,7 +477,8 @@ const products = [
         momen: "1.130 Nm",
         maxsp: "260 km/giờ",
         consume: "20.7 - 18.8 kWh/100 km",
-        co2: "0 g/km"
+        co2: "0 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/02/macan-bev-turbo-modelimage-840x473.png"
     },
     {
         id: 38,
@@ -455,7 +490,8 @@ const products = [
         momen: "500 Nm",
         maxsp: "248 km/giờ",
         consume: "13,27 lít/100 km",
-        co2: "275 - 246 g/km"
+        co2: "275 - 246 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2023/04/e3-2nd-cayenne-modelimage-sideshot-840x473.png"
     },
     {
         id: 39,
@@ -467,7 +503,8 @@ const products = [
         momen: "600 Nm",
         maxsp: "273 km/giờ",
         consume: "13,4 - 12,4 lít/100 km",
-        co2: "303 - 282 g/km"
+        co2: "303 - 282 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2023/09/e3-2nd-cayenne-s-modelimage-sideshot-840x473.png"
     },
     {
         id: 40,
@@ -479,7 +516,8 @@ const products = [
         momen: "660 Nm",
         maxsp: "275 km/giờ",
         consume: "13,3 - 12,6 lít/100 km",
-        co2: "303 - 287 g/km"
+        co2: "303 - 287 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/10/e3-2nd-cayenne-gts-modelimage-sideshot-840x473.png"
     },
     {
         id: 41,
@@ -491,7 +529,8 @@ const products = [
         momen: "500 Nm",
         maxsp: "248 km/giờ",
         consume: "12,1 - 10,9 lít/100 km",
-        co2: "275 - 247 g/km"
+        co2: "275 - 247 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2023/09/e3-2nd-cayenne-coupe-modelimage-sideshot-840x473.png"
     },
     {
         id: 42,
@@ -503,7 +542,8 @@ const products = [
         momen: "600 Nm",
         maxsp: "273 km/giờ",
         consume: "12,3 lít/100 km",
-        co2: "281 g/km"
+        co2: "281 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2023/09/e3-2nd-cayenne-coupe-s-modelimage-sideshot-840x473.png"
     },
     {
         id: 43,
@@ -515,7 +555,8 @@ const products = [
         momen: "660 Nm",
         maxsp: "275 km/giờ",
         consume: "13,3 - 12,6 lít/100 km",
-        co2: "303 - 287 g/km"
+        co2: "303 - 287 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2024/10/e3-2nd-cayenne-gts-coupe-modelimage-sideshot-840x473.png"
     },
     {
         id: 44,
@@ -527,6 +568,7 @@ const products = [
         momen: "850 Nm",
         maxsp: "305 km/giờ",
         consume: "12,5 lít/100 km",
-        co2: "285 g/km"
+        co2: "285 g/km",
+        img_self: "https://porsche-vietnam.vn/wp-content/uploads/2023/09/e3-2nd-cayenne-coupe-turbo-gt-modelimage-sideshot-840x473.png"
     }  
 ]
