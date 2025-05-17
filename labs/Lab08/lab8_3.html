@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 100%;
+            height: auto;
+            justify-content: center;
+        }
+        .title{
+            width: 100%;
+            position: relative;
+            font-size: 30px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .content{
+            font-size: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .left{
+            font-weight: 900;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="title">
+            <span>user information</span>
+        </div>
+        <div class="content">
+        </div>
+    </div>
+    <script>
+        var data = {
+            "name":"Nguyen Van A",
+            "age":"30",
+            "email":"nguyenvana@gmail.com",
+            "address":{
+                "city":"Ho Chi Minh",
+                "state":"NY",
+                "zip":"10001"
+            }
+        }
+        function show(data){
+            document.getElementsByClassName('content')[0].innerHTML=`
+                <div class="row">
+                    <span class="left">Name:</span>
+                    <span class="right">${data.name}</span>
+                </div>
+                <div class="row">
+                    <span class="left">Age:</span>
+                    <span class="right">${data.age}</span>
+                </div>
+                <div class="row">
+                    <span class="left">Email:</span>
+                    <span class="right">${data.email}</span>
+                </div>
+                <div class="row">
+                    <span class="left">Address:</span>
+                    <span class="right">${data.address.city}, ${data.address.state} ${data.address.zip}</span>
+                </div>
+            `;
+        }
+        show(data);
+
+    </script>
+</body>
+</html>

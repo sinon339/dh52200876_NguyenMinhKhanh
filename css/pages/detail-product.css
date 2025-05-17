@@ -1,0 +1,124 @@
+.main-content{
+    margin: 20px 0;
+}
+.slide-info{
+    padding-left: 40px;
+    position: absolute;
+    z-index: 9999999;
+    left: 5%;
+    bottom: 3%;
+    pointer-events: none;
+}
+.slide-info{
+    color: white;
+}
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+.slide-data{
+    display: flex;
+}
+.price{
+    padding-right: 30px;
+    border-right: 2px solid white;
+}
+.capacity{
+    padding: 0 40px;
+    border-right: 2px solid white;
+}
+.speed{
+    padding-left: 40px;
+}
+.value{
+    font-size: 20px;
+}
+.slide-data .title{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    transform: translate(40%);
+}
+.list-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.list-para{
+    list-style: none;
+    width: 50%;
+}
+.list-para li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.left{
+    font-weight: 800;
+}
+.right{
+    font-weight: 400;
+}
+.add-cart{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.add-cart button{
+    width: 170px;
+    height: 45px;
+    background-color: black;
+    border-radius: 10px;
+}
+.add-cart span{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media(max-width: 576px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        transform: translate(20%);
+    }
+    .capacity, .speed{
+        display: none;
+    }
+    .slide-info{
+        top: 27%;
+        padding: 0;
+    }
+    .value{
+        font-size: 15px;
+    }
+    .slide-data .title{
+        font-size: 10px;
+    }
+    .price{
+        border: none;
+    }
+    .parameter h2{
+        font-size: 20px;
+    }
+    .list-para{
+        width: 95%;
+        padding: 0;
+    }
+    .left{
+        font-size: 15px;
+    }
+    .right{
+        font-size: 15px;
+    }
+    .add-cart button.click .menu{
+        display: block;
+    }
+}
+

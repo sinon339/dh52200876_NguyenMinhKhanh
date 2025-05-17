@@ -1,0 +1,126 @@
+.blog-wrapper{
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.blog-wrapper h2{
+    padding: 20px 0 10px 0;
+    margin: 0;
+}
+.blog-wrapper span{
+    color: black;
+    
+}
+.content-wrapper{
+    padding-left: 90px;
+    margin-top: 20px;
+}
+.content-wrapper .title{
+    text-align: center;
+    width: 89%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog{
+    text-align: center;
+    margin: 10px 10px 10px 0;
+}
+.blog:hover .blog-detail span{
+    color: #8d1820;
+}
+.blog-img{
+    width: 480px;
+    height: auto;
+}
+.blog-img img{
+    border-radius: 5px;
+}
+.blog-detail{
+    width: 400px;
+    margin: 10px 0 0 0;
+    padding-left: 40px;
+}
+.blog-title span{
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.blog-content span{
+    font-weight: 500;
+}
+.blog-meta span{
+    font-weight: 300;
+}
+.sidebar-wrapper{
+    text-align: center;
+    margin-right: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: fit-content;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.3),
+        0 2px 4px rgba(0, 0, 0, 0.06);
+}
+.sidebar .item{
+    padding: 10px 0 10px 30px;
+}
+.item:hover span{
+    color: #8d1820;
+}
+.item a{
+    display: flex;
+    gap: 10px;
+}
+.item a img{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.title-wrapper span{
+    font-weight: 600;
+}
+.date-time span{
+    color: gray;
+}
+@media(max-width: 576px){
+    .blog-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-wrapper{
+        padding: 0;
+    }
+    .content-wrapper .title{
+    text-align: center;
+    width: 100%;
+    }
+    .blogs{
+        flex-direction: column;
+    }
+    .blog-img{
+        width: 300px;
+    }
+    .blog-detail{
+        width: 300px;
+        padding: 0;
+    }
+    .blog{
+        padding-left: 40px;
+    }
+    .sidebar-wrapper{
+        margin-left: 40px;
+        width: 300px;
+        text-align: center;
+        padding: 0;
+    }
+    .sidebar{
+        width: 280px;
+    }
+}

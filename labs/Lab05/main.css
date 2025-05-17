@@ -1,0 +1,38 @@
+.menu-ngang{
+    background-color: aquamarine;
+    display: flex;
+    list-style: none;
+    height: 40px;
+    width: 450px;
+    text-align: center;
+    padding: 0%;
+
+}
+.menu-ngang li{
+    width: 100px;
+    height: 100%;
+    align-content: center;
+    
+    
+}
+.menu-ngang li:hover{
+    border-radius: 5px;
+    background-color: chocolate;
+    font-weight: bold;
+    color: white;
+}
+.menu-doc{
+    list-style: none;
+    width: 150px;
+    height: 100px;
+}
+.menu-doc li{
+    background-color: darkcyan;
+    margin: 1px;
+    width: 100%;
+    padding: 10px;
+}
+.menu-doc li:hover{
+    background-color: aquamarine;
+    font-style: oblique;
+}

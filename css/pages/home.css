@@ -1,0 +1,272 @@
+body{
+    overflow-x: hidden;
+}
+.banner-wrapper{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+.banner-wrapper:hover .chevs{
+    display: flex;
+}
+.banner{
+    width: 100%;
+}
+.chevs{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.chevs img{
+    width: 60px;
+    height: 60px;
+}
+.chev-left, .chev-right{
+    cursor: pointer;
+}
+.dots{
+    position: absolute;
+    justify-content: center;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+.dot.active{
+    background-color: #4e5152;
+    transform: scaleX(2);
+}
+.slide{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.silde img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+@keyframes scroll-left{
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+.products{
+    text-align: center;
+    height: auto;
+
+}
+.products h2{
+    text-transform: uppercase;
+}
+.product-contain{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.product{
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+.product:hover{
+    cursor: pointer;
+}
+.product:hover img{
+    filter: brightness(50%);
+}
+.product:hover .price{
+    display: block;
+    opacity: 1;
+    cursor: pointer;
+}
+.product:hover .info{
+    display: none;
+}
+.product .info{
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.price .infox{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.product .price{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: none;
+}
+.product .info span{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+.product .price span{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.discoveries{
+    text-align: center;
+}
+.discoveries h2{
+    text-transform: uppercase;
+}
+.dis-items{
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+}
+.dis-item{
+    margin: 1px;
+}
+.dis-item:hover{
+    cursor: pointer;
+}
+.dis-info{
+    display: flex;
+    margin-bottom: 10px;
+}
+.dis-img{
+    overflow: hidden;
+    padding: 0;
+
+}
+.dis-item .dis-info span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+
+}
+.dis-item .dis-info img{
+    width: 5%;
+    height: auto;
+}
+.dis-item:hover .dis-info span{
+    color: #8d1820;
+}
+.dis-item:hover .dis-img img{
+    border-bottom: 4px solid #8d1820;
+}
+.newsletter-area{
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.newsletter-area .title{
+    margin: 40px 0px 30px 0px;
+    text-align: center;
+    width: 100%;
+}
+.newsletter-area .title span{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.newsletter-area .mail{
+    width: 100%;
+    justify-content: center;
+    margin: 40px 0px 40px 0px;
+    padding:20px 0;
+}
+.email-field{
+    display: flex;
+    transform: translateX(35%);
+}
+.error{
+    font-size: 15px;
+    color: red;
+    font-style: italic;
+    font-weight: 600;
+}
+.newsletter-area .mail .email-field input{
+    width: 400px;
+    border-radius: 5px 0px 0px 5px;
+    height: 40px;
+}
+.newsletter-area .mail .email-field button{
+    height: auto;
+}
+.btn-news{
+    background-color: black;
+    border-radius: 0px 5px 5px 0px;
+}
+@media(max-width: 576px){
+    .product-contain{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+    .product .info span{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .product .price span{ 
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    .dis-items{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .dis-item .dis-info span{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .newsletter-area .title{
+        width: 90%;
+        transform: translateX(7%);
+        margin: 0;
+    }
+    .newsletter-area .mail{
+        margin: 0;
+    }
+    .newsletter-area .title span{
+        font-size: 25px;
+    }
+    .email-field{
+        transform: none;
+    }
+    .newsletter-area .mail .email-field{
+        width: 300px;
+        position: relative;
+        left: 15%;
+    }
+    
+    
+
+}

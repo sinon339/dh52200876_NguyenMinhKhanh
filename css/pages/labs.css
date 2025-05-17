@@ -1,0 +1,51 @@
+.labs-wrapper{
+    padding: 30px 90px 30px 90px;
+    margin: 30px 0 30px 0;
+}
+.title span{
+    color: black;
+    font-size: 25px;
+}
+.labs{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    gap: 58px;
+}
+.lab{
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.list-lab{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+}
+.list-lab li{
+    margin: 15px 0 15px 0;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+.list-lab li:hover a{
+    color: black;
+}
+.list-lab li:hover{
+    background-color: grey;
+}
+.labs-wrapper a{
+    font-size: 20px;
+    color: white;
+}
+@media(max-width: 576px){
+    .labs{
+        flex-direction: column;
+    }
+    .labs-wrapper{
+        padding: 10px 30px 30px 50px;
+    }
+}

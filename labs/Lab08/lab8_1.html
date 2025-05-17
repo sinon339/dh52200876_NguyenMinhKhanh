@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .page-wrapper{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .chevs{
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 50%;
+            width: 90%;
+            left: 100px;
+        }
+        .chev{
+            text-align: center;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            padding-left: 10px;
+            background-color: white;
+            border-radius: 100%;
+            cursor: pointer;
+        }
+        #chev-left{
+            padding: 10px 0 10px 20px;
+        }
+        #chev-right{
+            padding: 0 10px;
+        }
+        .chev img{
+            width: 100%;
+            height: auto;
+            
+        }
+        .dots{
+            display: flex;
+            position: absolute;
+            left: 40%;
+            bottom: 10%;
+            z-index: 9999999999;
+            width: 100%;
+            height: auto;
+            gap: 20px;
+        }
+        .dots .dot{
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .dots .dot.active{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="slides">
+            <img src="./img/slide_1.jpeg" alt="" class="slide">
+            <img src="./img/slide_1.jpg" alt="" class="slide">
+            <img src="./img/slide_2.jpg" alt="" class="slide">
+            <img src="./img/slide_3.jpg" alt="" class="slide">
+            <img src="./img/slide_4.jpg" alt="" class="slide">
+            <img src="./img/slide_5.jpg" alt="" class="slide">
+        </div>
+        <div class="chevs">
+            <div class="chev" id="chev-left" onclick="plusSlide(-1)">
+                <img src="./img/arrow_back_ios_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+            </div>
+            <div class="chev" id="chev-right" onclick="plusSlide(1)">
+                <img src="./img/arrow_forward_ios_24dp_000000_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="">
+            </div>
+            
+        </div>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex=1;
+        showSlide(slideIndex);
+        function plusSlide(n){
+            showSlide(slideIndex += n);
+        }
+        function currentSlide(n){
+            showSlide(slideIndex = n);
+        }
+        function showSlide(n){
+            let i;
+            const slides=document.getElementsByClassName('slide');
+            const dots=document.getElementsByClassName('dot');
+            console.log(slides);
+            console.log(dots);
+            if(n>slides.length)
+                slideIndex=1;
+            if(n<1)
+                slideIndex=slides.length;
+            for(i=0;i<slides.length;i++){
+                slides[i].style.display='none';
+            }
+            for(i=0;i<dots.length;i++){
+                dots[i].className=dots[i].className.replace(' active', '');
+            }
+            slides[slideIndex-1].style.display='block';
+            dots[slideIndex-1].className +=' active';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.contact{
+    background-color: #f6f6f6;
+}
+.title{
+    text-align: center;
+    padding-top: 5px;
+}
+.title h2{
+    text-transform: uppercase;
+}
+.row1, .row2{
+    display: flex;
+    gap: 70px;
+}
+.form-cont{
+    padding-left: 200px;
+}
+.form-cont span{
+    color: black;
+    font-size: 15px;
+    margin-right: 50px;
+}
+.form-cont input{
+    padding: 10px;
+    border: 0;
+    width: 400px;
+}
+.form-cont div{
+    margin: 10px 0 10px 0;
+}
+.ten span{
+    margin-right: 65px;
+}
+.tieude span{
+    margin-right: 90px;
+}
+.loi-nhan textarea{
+    margin-top: 10px;
+    width: 80%;
+    height: 200px;
+    border: 0;
+}
+.error{
+    font-size: 15px;
+    color: red;
+    font-style: italic;
+    font-weight: 600;
+}
+.btn-gui{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.btn-gui button{
+    background-color: black;
+    border-radius: 5px;
+    height: 40px;
+}
+@media(max-width: 576px){
+    .form-cont{
+        padding: 0 50px 0 50px;
+    }
+    .row1, .row2{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .form-cont input{
+        width: 250px;
+    }
+
+
+}
+
